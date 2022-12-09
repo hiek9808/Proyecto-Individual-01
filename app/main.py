@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app_fast_api.repository.QueryRepositoy import QueryRepository
+from app.repository.QueryRepositoy import QueryRepository
 
 app = FastAPI()
 repository = QueryRepository()

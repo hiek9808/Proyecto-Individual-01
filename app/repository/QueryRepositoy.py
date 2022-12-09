@@ -1,4 +1,4 @@
-from app_fast_api.database.MysqlDB import MysqlDB
+from app.database.MysqlDB import MysqlDB
 
 
 class QueryRepository:
